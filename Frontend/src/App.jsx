@@ -5,6 +5,7 @@ import CreateTaskPage from "./pages/TaskCreate";
 import SignIn from "./pages/SignIn";
 import AISupport from "./pages/AISupport";
 import Account from "./pages/Account";
+import SignUp from "./pages/SignUp";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/Support" element={<AISupport />} />
         <Route path="/Account" element={<Account />} />
+        <Route path="/SignUp" element={<SignUp />} />
       </Routes>
     </Router>
   );
