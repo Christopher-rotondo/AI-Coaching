@@ -18,7 +18,7 @@ function App() {
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/Support" element={<AISupport />} />
         <Route path="/Account" element={<Account />} />
-        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/SignUp" element={<Signup />} />
       </Routes>
     </Router>
   );
