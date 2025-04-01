@@ -69,11 +69,11 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background: #007bff;
+    background: #74b9ff;
     color: #fff;
     transition: background 0.3s;
   }
 
   .sign-in-form button:hover {
-    background: #0056b3;
+    background: #41a0ff;
   }
